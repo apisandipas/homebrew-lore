@@ -1,0 +1,20 @@
+name: Test
+
+# Installs the formula from this tap and runs its test, as a user would.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  install:
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: Homebrew/actions/setup-homebrew@main
+      - run: brew install apisandipas/lore/lore
+      - run: brew test apisandipas/lore/lore
+      - run: lore --version && rg --version | head -n 1
