@@ -2,28 +2,28 @@
 class Lore < Formula
   desc "Typed project notes linked to the code they govern"
   homepage "https://apisandipas.github.io/lore/"
-  version "0.1.0-alpha.4"
+  version "0.1.0-alpha.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.4/lore-darwin-arm64.tar.gz"
-      sha256 "d808cf9c3ce7e6caa04de98283140f32cbc4520b14989ed678017524ee19c3bc"
+      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.5/lore-darwin-arm64.tar.gz"
+      sha256 "496a36d3f6f6b7c1e3dc940e55da5bea1477239c43dd5124cedbb200f30c34da"
     end
     on_intel do
-      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.4/lore-darwin-x64.tar.gz"
-      sha256 "1ac709aded06ca203741ae1a2412d94e5074b59514a854baafaf9d16b9cd8990"
+      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.5/lore-darwin-x64.tar.gz"
+      sha256 "c6f36c131c3fdd4c1e534f96817284cf280e7fba300af0a6da4f6b23ef498b1e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.4/lore-linux-arm64.tar.gz"
-      sha256 "08b4e17a4db35a3181bf617c72a2afac21414cf8d5c57569057a6108ff243f84"
+      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.5/lore-linux-arm64.tar.gz"
+      sha256 "66c114547c898e4cdb33442567f25b7b003b88e54a4bde88d62b487742e80d82"
     end
     on_intel do
-      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.4/lore-linux-x64.tar.gz"
-      sha256 "594cba3b8b7bcdd7cab69266016cc05da0fb4a8e9fdfb13c094af3b1aabd01e0"
+      url "https://github.com/apisandipas/lore/releases/download/v0.1.0-alpha.5/lore-linux-x64.tar.gz"
+      sha256 "c0ac576ffe3dafc5dc89e9f8760f177eceba9696f7727eee9e648f1cd48a5671"
     end
   end
 
